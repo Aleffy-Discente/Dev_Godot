@@ -16,6 +16,7 @@ func _ready() -> void:
 
 
 func Enter() -> void:
+	print("Modo attack")
 	player.UpdateAnimation('attack')
 	attack_anim.play("attack_" + player.AnimDirection())
 	
